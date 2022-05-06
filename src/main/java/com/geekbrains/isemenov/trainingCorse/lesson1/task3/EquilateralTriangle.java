@@ -11,7 +11,6 @@ public class EquilateralTriangle extends Shape implements Drawable {
         return Math.sqrt(3) * dimension * dimension / 4;
     }
 
-
     @Override
     public void draw() {
         System.out.println("Рисуем треугольник");
