@@ -1,4 +1,4 @@
-package com.geekbrains.isemenov.trainingCorse.lesson3.ThreadSafeCounter;
+package com.geekbrains.isemenov.trainingCorse.lesson3.threadSafeCounter;
 
 public class Test {
     public static void main(String[] args) throws InterruptedException {

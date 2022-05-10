@@ -1,7 +1,7 @@
-package com.geekbrains.isemenov.trainingCorse.lesson3.ThreadSafeCounter;
+package com.geekbrains.isemenov.trainingCorse.lesson3.threadSafeCounter;
 
 public class CounterThread extends Thread{
-    private Counter counter;
+    private final Counter counter;
 
     public CounterThread(Counter counter) {
         this.counter = counter;
